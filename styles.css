@@ -10,9 +10,8 @@ html{scroll-behavior:smooth}
 body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .site{min-height:100vh}
-.site-nav{min-height:auto;display:flex;align-items:center;justify-content:space-between;gap:34px;padding:18px clamp(22px,5vw,74px);border-bottom:1px solid var(--line);background:var(--cream)}
-.brandmark{flex:0 0 auto;text-decoration:none;display:inline-flex;align-items:center;line-height:0}
-.brandmark::before{content:"";display:block;width:145px;aspect-ratio:354 / 230;background:url("assets/rukun-logo-flat.png?v=8") left center/contain no-repeat}
+.site-nav{min-height:auto;display:flex;align-items:center;justify-content:space-between;gap:34px;padding:18px clamp(22px,5vw,74px);border-top:4px solid var(--forest);border-bottom:1px solid rgba(39,53,48,.28);background:var(--parchment)}
+.site-id{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--forest);text-decoration:none}
 .site-nav nav{margin-left:auto;display:flex;gap:25px;flex-wrap:wrap;justify-content:flex-end}
 .site-nav nav a{text-decoration:none;font-size:12px;color:#403a35}
 .site-nav nav a:hover{text-decoration:underline;text-underline-offset:4px}
@@ -24,14 +23,14 @@ a{color:inherit}
 .active-provenance .site-nav nav a[href="provenance.html"]{color:var(--saffron);text-decoration:underline;text-underline-offset:4px}
 
 .frame,.rukun-home main{max-width:1600px;margin:0 auto}
-.rukun-hero{padding:clamp(64px,8vw,120px) clamp(22px,7vw,108px) clamp(58px,7vw,92px);border-bottom:1px solid var(--line)}
+.rukun-hero{padding:clamp(64px,8vw,120px) clamp(22px,7vw,108px) clamp(58px,7vw,92px);border-bottom:1px solid rgba(39,53,48,.24);background:var(--cream)}
 .rukun-eyebrow,.eyebrow{margin:0 0 25px;font-size:10px;text-transform:uppercase;letter-spacing:.18em;font-weight:500;color:var(--saffron)}
 .rukun-intro{max-width:980px;margin:0 0 28px;font-family:"Literata",Georgia,serif;font-size:clamp(21px,2.25vw,31px);line-height:1.38;letter-spacing:-.015em}
 .statement{font-family:"Cormorant",Georgia,serif;font-style:italic;font-size:1.16em}
 .rukun-meta{margin:0;color:var(--muted);font-size:12px}
 
-.rukun-directory{padding:34px clamp(22px,5vw,74px) 96px}
-.rukun-toolbar{display:grid;grid-template-columns:1.7fr repeat(3,1fr);gap:18px;padding:8px 0 28px;border-bottom:1px solid var(--ink)}
+.rukun-directory{padding:34px clamp(22px,5vw,74px) 96px;background:var(--parchment)}
+.rukun-toolbar{display:grid;grid-template-columns:1.7fr repeat(3,1fr);gap:18px;padding:8px 0 28px;border-bottom:1px solid var(--forest)}
 .rukun-toolbar label{display:flex;flex-direction:column;gap:10px}
 .rukun-toolbar span,.rukun-directory-head{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
 input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--line);background:transparent;padding:0 2px;color:var(--ink);font:inherit;font-size:14px;outline:none}
@@ -39,20 +38,24 @@ input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--l
 .rukun-directory-head p{margin:0}
 #clear{border:0;background:none;padding:0;font:inherit;font-size:10px;text-transform:uppercase;letter-spacing:.14em;cursor:pointer;color:var(--ink)}
 .rukun-resource-list{border-top:1px solid var(--line)}
-.rukun-resource{display:grid;grid-template-columns:minmax(190px,1fr) minmax(310px,1.7fr) minmax(190px,.9fr) 40px;gap:34px;align-items:start;padding:26px 0;border-bottom:1px solid var(--line)}
+.rukun-resource{display:grid;grid-template-columns:minmax(190px,1fr) minmax(310px,1.7fr) minmax(190px,.9fr) 40px;gap:34px;align-items:start;padding:26px 14px;border-bottom:1px solid var(--line);transition:background .18s ease}
+.rukun-resource:nth-child(even){background:rgba(104,115,122,.055)}
+.rukun-resource:hover{background:rgba(181,106,99,.055)}
 .rukun-resource h2{margin:0;font-family:"Literata",Georgia,serif;font-weight:400;font-size:clamp(25px,2.3vw,35px);line-height:1.08}
 .rukun-description{margin:0;font-size:14px;line-height:1.62;color:#47413c}
 .rukun-taxonomy{display:flex;flex-direction:column;gap:7px;font-size:11px;color:var(--muted)}
 .rukun-taxonomy strong{font-weight:500;color:var(--ink)}
 .rukun-visit{justify-self:end;text-decoration:none;font-size:22px;line-height:1}
-.rukun-visit:hover{color:var(--saffron)}
+.rukun-visit:hover{color:var(--rose)}
 .rukun-empty{padding:56px 0;color:var(--muted)}
-.rukun-note{padding:44px clamp(22px,5vw,74px) 70px;border-top:1px solid var(--line)}
+.rukun-note{padding:44px clamp(22px,5vw,74px) 56px;border-top:0;background:var(--forest);color:var(--parchment)}
 .rukun-note p{max-width:880px;margin:0;font-size:14px;line-height:1.65}
 .rukun-note a,.footer a,.text-link{ text-underline-offset:4px }
+.rukun-note a{color:var(--saffron)}
+.footer a:hover{color:var(--saffron)}
 
-.data-head{padding:29px clamp(22px,5vw,74px) 31px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(150px,.35fr) minmax(0,1fr);gap:34px;align-items:start}
-.page-name{margin:0;font-family:"Literata",Georgia,serif;font-size:28px}
+.data-head{padding:29px clamp(22px,5vw,74px) 31px;border-top:4px solid var(--forest);border-bottom:1px solid rgba(39,53,48,.24);display:grid;grid-template-columns:minmax(150px,.35fr) minmax(0,1fr);gap:34px;align-items:start;background:var(--parchment)}
+.page-name{margin:0;font-family:"Literata",Georgia,serif;font-size:28px;color:var(--forest)}
 .data-head>p:last-child{margin:3px 0 0;max-width:780px;color:#514b45;font-size:14px;line-height:1.6}
 
 .record-list{padding:0 clamp(22px,5vw,74px) 72px}
@@ -66,7 +69,7 @@ input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--l
 .record-meta span:last-child{border-bottom:0}
 .text-link{display:inline-flex;margin-top:4px;font-size:12px}
 .release-note{padding:0 clamp(22px,5vw,74px) 76px}
-.release-note p{max-width:860px;margin:0;padding:18px 20px;border-left:3px solid var(--saffron);background:var(--parchment);font-size:13px;line-height:1.65}
+.release-note p{max-width:860px;margin:0;padding:18px 20px;border-left:3px solid var(--rose);background:var(--parchment);font-size:13px;line-height:1.65}
 .section-intro{padding:45px clamp(22px,5vw,74px) 36px;border-bottom:1px solid var(--line)}
 .large-copy{max-width:920px;margin:0;font-family:"Literata",Georgia,serif;font-size:clamp(21px,2.2vw,30px);line-height:1.42}
 .provenance-section{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(0,1.35fr);gap:60px;padding:48px clamp(22px,5vw,74px) 64px;border-bottom:1px solid var(--line)}
@@ -74,7 +77,7 @@ input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--l
 .provenance-section>p,.provenance-section>div:last-child{max-width:880px;margin:0;font-size:14px;line-height:1.75;color:#48423d}
 .provenance-list p{margin:0 0 22px}.provenance-list p:last-child{margin-bottom:0}
 .provenance-list strong{color:var(--ink);font-weight:600}
-.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:27px clamp(22px,5vw,74px);border-top:1px solid var(--line);font-size:11px;color:var(--muted);background:var(--parchment)}
+.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:27px clamp(22px,5vw,74px);border-top:0;font-size:11px;color:var(--parchment);background:var(--ink)}
 
 @media(max-width:1050px){
   .rukun-toolbar{grid-template-columns:1.6fr 1fr}
@@ -84,7 +87,7 @@ input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--l
   .record{grid-template-columns:1fr 1.3fr}.record-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:8px 18px}
 }
 @media(max-width:700px){
-  .site-nav{display:block;padding:18px 22px}.brandmark::before{width:132px}.site-nav nav{display:none}
+  .site-nav{display:block;padding:16px 22px 17px}.site-nav nav{display:flex;margin-top:13px;margin-left:0;gap:10px 16px}
   .rukun-hero{padding:48px 22px 50px}.rukun-intro{font-size:22px}
   .rukun-directory{padding:28px 22px 68px}.rukun-toolbar{grid-template-columns:1fr}
   .rukun-resource{grid-template-columns:1fr 32px;gap:14px}.rukun-description,.rukun-taxonomy{grid-column:1/3}.rukun-visit{grid-column:2;grid-row:1}
