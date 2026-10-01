@@ -1,9 +1,9 @@
 const collections=[
 {name:"Projects",description:"Selected projects and initiatives documented in the public Rukun record.",type:"Projects",years:["2019","2022","2023","2024"],keywords:["Heritage Commission","AlMashtal","Designathon","Nuqat"],count:"4 records",url:"projects.html"},
-{name:"Research",description:"Public research activity, focus-group methods, and knowledge outputs.",type:"Research",years:["2026"],keywords:["Focus groups","Research","Publications","Coding"],count:"1 record",url:"research.html"},
-{name:"Programs & Partnerships",description:"International programs, Saudi editions, and continuing institutional relationships.",type:"Programs",years:["2024","2025","2026"],keywords:["Creative Women Forum","Kilmitain","Riyadh","London"],count:"2 records",url:"programs.html"},
+{name:"Research",description:"Public research activity, focus-group methods, and knowledge outputs.",type:"Research",years:["2025","2026"],keywords:["Focus groups","Research","Publications","Coding","Signals"],count:"5 records",url:"research.html"},
+{name:"Programs & Partnerships",description:"International programs, Saudi editions, and continuing institutional relationships.",type:"Programs",years:["2024","2025","2026"],keywords:["Creative Women Forum","Kilmitain","Design Awakening","Riyadh","London"],count:"3 records",url:"programs.html"},
 {name:"Knowledge Platforms",description:"Rukun-led public knowledge platforms, with canonical archives linked at source.",type:"Platforms",years:["2024","2025","2026"],keywords:["Knowledge of Design","STEAM","Publications"],count:"1 record",url:"platforms.html"},
-{name:"Advisory",description:"The Rukun Advisory Circle and documented advisory members.",type:"Advisory",years:["2026"],keywords:["Advisory","Research","Education"],count:"2 records",url:"advisory.html"}
+{name:"Advisory",description:"The Rukun Advisory Circle and documented advisory members.",type:"Advisory",years:["2026"],keywords:["Advisory","Research","Education","Systems"],count:"4 records",url:"advisory.html"}
 ];
 
 const els={
