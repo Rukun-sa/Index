@@ -88,7 +88,7 @@ input,select{width:100%;min-height:42px;border:0;border-bottom:1px solid var(--l
   .record{grid-template-columns:1fr 1.3fr}.record-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:8px 18px}
 }
 @media(max-width:700px){
-  .rukun-logo{width:128px;height:auto}
+  .rukun-logo{width:132px;height:auto}
   .site-nav{display:block;padding:14px 22px 15px}.site-nav nav{display:flex;margin-top:13px;margin-left:0;gap:10px 16px}
   .rukun-hero{padding:48px 22px 50px}.rukun-intro{font-size:22px}
   .rukun-directory{padding:28px 22px 68px}.rukun-toolbar{grid-template-columns:1fr}
