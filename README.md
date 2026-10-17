@@ -7,3 +7,7 @@ The site is maintained as a versioned public record. Private client material, in
 Public links:
 - Rukun LinkedIn: https://www.linkedin.com/company/rukun-sa/
 - Knowledge of Design: https://brandiejanow.github.io/Knowledge-of-Design/index.html
+
+## Editorial writing style
+
+Do not use em dashes in website copy, research writing, public data labels, metadata, or documentation. Use commas, colons, parentheses, or full stops as appropriate. Preserve the intended meaning and source attribution when revising historical text. Treat this as the standard for future updates.
