@@ -4,6 +4,13 @@ Public Rukun index for projects, research, programs, knowledge platforms, adviso
 
 The site is maintained as a versioned public record. Private client material, internal working documents, and confidential discussion material are not published unless explicitly approved for public release.
 
+## Research scope and source boundaries
+
+Research presented as Rukun evidence must have been conducted or produced through Rukun, with the source and permission basis checked in the private institutional record. Independent studies by Brandie Janow, including her separate historical Saudi Creative Economy research archive, are not Rukun research datasets and must not be imported, combined, or attributed to Rukun.
+
+KoD talks, speaker discussions, and public papers may be documented as related program activity when appropriate, but their appearance here does not establish that they are original Rukun research, or authorize transferring personal records into an institutional dataset. Mixed program summaries must be checked against the original source before being used to support any Rukun research claim. Keep private participant identities and source details out of the public index.
+
+
 Public links:
 - Rukun LinkedIn: https://www.linkedin.com/company/rukun-sa/
 - Knowledge of Design: https://brandiejanow.github.io/Knowledge-of-Design/index.html
